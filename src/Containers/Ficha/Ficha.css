@@ -1,0 +1,150 @@
+
+.Levy__Ficha-container{
+    width:100%;
+    height:100%;
+}
+  
+.Levy__Ficha{
+    width:100%;
+    height: auto;
+    display:flex;
+    flex-direction:row;
+  
+}
+  
+.Levy__Ficha-columnone{
+    width:100%;
+    height: 40rem;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 -7rem;
+    flex-direction:column;
+  
+  
+}
+  
+
+  
+  
+.Levy__ficha-boton_box{
+  
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    width:15rem;
+    height:5rem; 
+    margin-top:5rem;
+  
+  
+}
+  
+.Levy__Ficha-boton_box button{
+    flex:0.6;
+    min-height: 50px;
+    padding:0 1rem;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:15rem;
+    height:100%;
+    background: var(--main-color);
+    border:.2rem solid var(--text-color);
+    border-radius: .8rem;
+    font-size: 1rem;
+    font-weight:600;
+    letter-spacing: .1rem;
+    color:var(--bg-color);
+    z-index: 1;
+    overflow: hidden;
+    font-family: var(--font-family);
+    margin: 1rem 5px;
+    cursor:pointer;
+    outline:none;
+}
+  
+.Levy__Ficha-diagnostico_box {
+    position: relative;
+    width: 50%; /* Hacer que la caja ocupe la mitad de la página */
+    height: 400px;
+}
+  
+.Levy__Ficha-diagnostico_textbox {
+    position: relative;
+    bottom: 1rem;
+    width: 100%;
+    height: 15rem;
+    background: var(--bg-color);
+    border: 2px solid transparent;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-top: 1rem;
+    padding: 0.5rem;
+
+}
+
+.Levy__Ficha-diagnostico_textbox textarea{
+    font-size:12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.6px;
+}
+
+.Levy__Ficha-columntwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.Levy__Ficha-medicinas_box,
+.Levy__ficha-sugerencias_box {
+    width: 100%;
+    height: 15rem;
+    background: var(--bg-color);
+    border: 2px solid transparent;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-top: 1rem;
+}
+  
+.Levy__Ficha-medicinas_textbox,
+.Levy__Ficha-sugerencias_textbox {
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.6px;
+}
+  
+.Levy__Ficha-medicinas_box {
+    margin-bottom: 1rem;
+}
+  
+.Levy__ficha-sugerencias_box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.Levy__ficha-sugerencias_box svg{
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 2.5rem;
+    color: var(--text-color);
+    padding: 0;
+    width: 6rem;
+    height: 2rem;
+    margin-bottom: 12rem;
+    margin-right:4rem;
+    
+}
+  
+.Levy__Ficha-columntwo h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}

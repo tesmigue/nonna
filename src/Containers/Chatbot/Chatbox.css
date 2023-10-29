@@ -1,0 +1,74 @@
+.Levy__Chatbot {
+    margin-top: 1rem;
+
+}
+  
+.Levy__Chatbot-container {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+  
+.Levy__Chatbot-title {
+    font-family: var(--font-family);
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    margin-top: 0.2rem;
+    text-align: center;
+}
+
+.Levy__Chatbot{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+  
+.Levy__chatbot-input {
+    position: relative;
+    width: 1500px;
+    height: 600px;
+    margin: .8rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-shadow: rgba(0,0,0,0.25);
+    border-radius: 1rem;
+}
+  
+.Levy__chatbot-input textarea {
+    flex-grow: 1;
+    width: auto;
+    height: 100%;
+    min-height: 100px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 28px;
+    background: var(--main-color);
+    border: 2rem solid var(--text-color);
+    border-radius: .6rem;
+    padding: 1.5rem;
+    outline: none;
+    color: #fff;
+    text-align: center;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: auto;
+    margin-bottom: 1rem;
+    position:relative;
+    top:0rem;
+}
+  
+.Levy__chatbot-input svg {
+    position: absolute;
+    left: 1rem;
+    transform: translate(-50%, -50%);
+    color: var(--text-color);
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1.8rem; 
+    margin-left: 1rem;
+}

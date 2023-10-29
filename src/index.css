@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+:root{
+    --font-family: 'Poppins', sans-serif;
+
+    --color-bg: #D9D9D9;
+    --main-color: #A5A5A5;
+    --text-color: #black;
+    --second-text-color: #white;
+    --color-graphs: #DE4300;
+}
+
+

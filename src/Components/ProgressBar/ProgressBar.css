@@ -1,0 +1,29 @@
+.circle-progress {
+    width: 700px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.circle-progress-background {
+    fill: none;
+    stroke: whitesmoke;
+    r: 400px;
+}
+  
+.circle-progress-bar {
+    fill: none;
+    stroke: var(--color-graphs);
+    transition: stroke-dashoffset 0.5s;
+    stroke-width: 60px;
+    r: 300px;
+}
+  
+.circle-progress-text {
+    fill: var(--color-text);
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 100px;
+    text-anchor: middle;
+}
