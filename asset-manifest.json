@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nonna/static/css/main.c848aaeb.css",
+    "main.js": "/nonna/static/js/main.7d696af4.js",
+    "static/media/Logo.png": "/nonna/static/media/Logo.29298dcff625efe37855.png",
+    "static/media/Perfil.png": "/nonna/static/media/Perfil.ab32e2b67846c57db98e.png",
+    "static/media/people.png": "/nonna/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "index.html": "/nonna/index.html",
+    "main.c848aaeb.css.map": "/nonna/static/css/main.c848aaeb.css.map",
+    "main.7d696af4.js.map": "/nonna/static/js/main.7d696af4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c848aaeb.css",
+    "static/js/main.7d696af4.js"
+  ]
+}
